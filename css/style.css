@@ -1,0 +1,62 @@
+@font-face { 
+    font-family: "RevaliaRegular";
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+    src: local('RevaliaRegular'), local('Revalia-Regular'),
+     url(../fonts/Revalia-Regular.woff) format('woff'),
+     url(../fonts/Revalia-Regular.woff2) format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+a {
+    text-decoration: none;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    padding-left: 320px;
+    padding-right: 58px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+.header__logo {
+    font-family: 'RevaliaRegular';
+    font-size: 42px;
+    line-height: 60px;
+    color: #34547A;
+}
+
+.header__container {
+    display: flex;
+    padding-top: 20px;
+    background: #EEEFF1;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center ;
+    list-style: none;
+    padding-left: 320px;
+    padding-top: 9px;
+  }
+
+.nav__link {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 33px;
+  }
