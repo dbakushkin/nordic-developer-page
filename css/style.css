@@ -13,9 +13,20 @@
   }
 
 a {
-    text-decoration: none;
-  }
+  display: inline-block;
+}
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  transform: translateX(5px);
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -28,6 +39,8 @@ body {
     margin-left: auto;
     
   }
+
+  /* Header */
 
 .header__logo {
     font-family: 'RevaliaRegular';
@@ -55,8 +68,115 @@ body {
     line-height: 26px;
     font-weight: 500;
     letter-spacing: 0.1em;
+    color: #000000;
 }
 
 .nav__item:not(:last-child) {
     margin-right: 33px;
+  }
+
+  /* Skills block */
+
+  .skills__container {
+    background: #EEEFF1;
+    display: flex;
+    padding-top: 123px;
+    padding-left: 385px;
+    padding-bottom: 97px;
+  }
+
+  .left__skills {
+
+    background-image: url("/img/note.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 290px;
+    height: 200px;
+
+  }
+
+
+  .right__skills {
+    max-width: 540px;
+    padding-left: 95px;
+  }
+
+  .skills__header {
+    margin: 0;
+    font-weight: 500;
+    font-size: 39px;   
+  }
+
+  .skills_description {
+  font-size: 14px;
+  line-height: 26px;
+  color: #727272;
+  }
+
+  .skills__btn {
+    color: #fff;
+    font-size: 13px;
+    background-color: #34547A;
+    border: none;
+    padding: 15px 40px;
+  }
+
+  .skills__btn:hover {
+    opacity: 0.7;
+  }
+
+  /* About */
+  .about__container {
+    padding-bottom: 78px;
+  }
+
+  .about__header {
+    padding-left: 390px;
+    padding-top: 85px;
+    font-size: 25px;
+  }
+
+  .about__description {
+   margin-left: 250px;
+    color: #727272;
+    font-size: 14px;
+    max-width: 500px;
+  }
+
+  /* Project */
+
+  .project__container {
+    background-color: #34547A;
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 63px;
+  
+  }
+
+
+
+  .project__img {
+    width: 45px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .project__header {
+    color: #fff;
+    padding-left: 10px;
+    margin-bottom: 0;
+  }
+
+  .project__description {
+    color: #fff;
+    padding-left: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .right__project:not(:last-child) {
+    padding-top: 5px;
+    margin-right: 40px;
+  
   }
