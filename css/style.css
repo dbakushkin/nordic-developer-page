@@ -180,3 +180,168 @@ body {
     margin-right: 40px;
   
   }
+
+  /* My skills */
+
+  progress {
+    border:0;
+    width: 350px;
+    height: 4px;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+progress::-webkit-progress-bar {
+    width: 350px;
+    height: 4px;
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+progress::-webkit-progress-value {
+    border-radius: 5px;
+    background: #34547A;
+}
+progress::-moz-progress-bar {
+    border-radius: 5px;
+    background: #34547A;
+}
+
+.skills__title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 26px;
+  color: #727272;
+}
+.myskills__header {
+  font-size: 24px;
+}
+
+.left__myskills {
+  padding-top: 157px;
+}
+.right__myskills {
+  padding-top: 95px ;
+  padding-left: 55px;
+}
+
+.myskills__container {
+  display: flex;
+}
+
+.myimg {
+  width: 500px;
+  height: 400px;
+}
+
+  /* Video */
+
+  .video__container {
+    background-color: #EEEFF1;
+  
+  }
+
+  .video__header {
+    padding-top: 95px;
+    padding-left: 360px;
+    font-size: 25px;
+  }
+
+  .video__description {
+    font-size: 12px;
+    max-width: 540px;
+    margin-left: 270px;
+    color: #727272;
+  }
+
+  .youtube {
+    margin-left: 100px;
+  }
+
+  /* Work */
+
+  .img__block {
+    line-height: 0;
+  }
+  .work__container {
+    margin-top: 25px;
+  }
+
+  .work__img {
+    max-width: 320px;
+    height: 320px;
+  }
+
+  /* React */
+
+  .react__block {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 200px;
+    padding-top: 70px ;
+    padding-bottom: 70px;
+  }
+
+  /* Form */
+
+  .form__container {
+    background-color: #EEEFF1;
+  }
+
+  .form__header {
+    padding-top: 95px;
+    padding-left: 360px;
+    font-size: 25px;
+  }
+
+  .form__description {
+    font-size: 12px;
+    max-width: 540px;
+    margin-left: 220px;
+    color: #727272;
+    text-align: center;
+  }
+
+  .input__block {
+    display: flex;
+  }
+
+  .form {
+    padding-left: 250px;
+  }
+
+  .form__input {
+    margin-bottom: 25px;
+    height: 50px;
+    width: 250px;
+    background-color: #fff;
+    border: none;
+    }
+
+    .form__input:not(:last-child){
+      margin-right: 20px;
+    }
+
+    .textarea__block {
+      display: flex;
+      flex-direction: column;
+      border: none;
+      width: 520px;
+    }
+
+    .form__btn {
+    
+    color: #fff;
+    font-size: 13px;
+    background-color: #34547A;
+    border: none;
+    padding: 15px 40px;
+    width: 140px;
+    margin-left: 165px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    
+    }
+
+    .footer__container {
+      height: 151px;
+      background: #34547A;
+    }
